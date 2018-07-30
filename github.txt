@@ -3,12 +3,12 @@ git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/nonko8/terraform-aws-templates.git
+git pull origin master
+
 
 git push -u origin master
 
 git merge --allow-unrelated-histories origin/master
-
-git pull origin master
 
 
 
