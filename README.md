@@ -22,6 +22,10 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 git remote add origin https://github.com/nonko8/{repo-name}.git  
 git pull origin master
 
+## Clone
+git clone https://github.com/nonko8/{repo-name}.git  
+git remote remove origin
+
 ## Reset
 git reset HEAD
 git reset --hard
